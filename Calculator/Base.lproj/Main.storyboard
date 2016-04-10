@@ -60,6 +60,9 @@
                                             <constraint firstAttribute="height" constant="63" id="RSb-0t-sFf"/>
                                         </constraints>
                                         <state key="normal" image="clear"/>
+                                        <connections>
+                                            <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BvJ-eA-hGd"/>
+                                        </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="LmW-p6-LMc">
                                         <rect key="frame" x="0.0" y="70" width="213" height="63"/>
